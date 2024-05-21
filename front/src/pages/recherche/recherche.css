@@ -1,0 +1,23 @@
+
+.title{
+    margin-top: 140px;
+    font-weight: 700;
+}
+
+.seeMore{
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(144, 144, 144, 1);
+    margin-top: -40px;
+    margin-bottom: 80px;
+}
+
+.seeMoreBtn{
+    display: flex;
+    justify-content: center;
+}

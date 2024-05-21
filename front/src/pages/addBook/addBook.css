@@ -1,0 +1,113 @@
+.AddBook {
+    display: flex;
+    flex-direction: column;
+}
+.pageTitle {
+    margin: 140px 0 0 10%;
+    font-weight: bolder;
+}
+.addBookForm {
+    margin:50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 50%;
+    justify-content: space-between;
+    align-self: center;
+}
+.addBookForm label{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    font-weight: bold;
+    font-size:x-large;
+    justify-content: space-between;
+}
+.addBookForm label select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 20px;
+    min-height: 66.5px;
+    border-radius: 10px;
+    border: 2px solid #909090;
+    font-size: 15px;
+    font-weight: 500;
+    width: 40%;
+    background-color: white;
+    color: black;
+ }
+ .addBookForm label select:focus{
+    border-color: black;
+    outline: none;
+}
+.dateInput { 
+    padding: 10px; 
+    height: 66.5px;
+    border: 2px solid #909090;
+    border-radius: 10px;
+}
+.dateInput:focus { 
+    border-color: black;
+    outline: none;
+}
+ ::-webkit-datetime-edit {
+    border: none;
+}
+.submitBtn {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #3498DB;
+    color: white;
+    width: fit-content;
+    align-self: center;
+}
+.bookInput {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #909090;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    width: 40%;
+}
+.bookInput:focus {
+    border-color: black;
+    outline: none;
+}
+
+.fileInput {
+    cursor: pointer;
+}
+
+.fileImgContainer {
+    padding: 10px;
+    position: relative;
+}
+
+.fileImg {
+    width: 100%;
+    object-fit: cover;
+}
+.MuiSvgIcon-root {
+    font-size: 2.5rem;
+}
+.fileImgCancel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width:1300px) {
+    .addBookForm {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .addBookForm {
+        width: 90%;
+    }
+}

@@ -1,0 +1,113 @@
+.bookInfo {
+    background-color: #fff;
+    margin:100px 50px 50px 50px;
+    box-shadow: 1px 1px 5px 6px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.bookInfoRight {
+    padding: 50px 10px 50px 50px;
+}
+.bookInfoImg {
+    width: 300px;
+    border-radius: 5px;
+}
+.bookInfoleft {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.bookInfoName {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.bookInfoDesc {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.ratingStars {
+    margin-bottom: 20px;
+}
+.bookBasicInfo {
+    margin-bottom: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.myListButtons {
+    display: flex;
+    gap: 2%;
+    margin-top: 35px;
+}
+.btnInfo {
+    font-style: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    min-width: fit-content;
+}
+.haveReadIt {
+    background-color:  #262626;
+    color: white;
+}
+.readingIt {
+    background-color: #3498DB;
+    color: white;
+}
+.wishlist {
+    color: #3498DB;
+    background-color: white;
+    border: 2px solid #3498DB;
+}
+
+.modifyBtn {
+    margin-top: 20px;
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 0);
+    color: rgb(54, 51, 5);
+    font-weight: 700;
+    
+}
+@media only screen and (max-width:940px) {
+    .bookInfo {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 140px;
+    }
+    
+    .bookInfoName , .bookInfoDesc , .ratingStars , .modifyBtn {
+        align-self: center;
+    }
+    .bookInfoRight {
+        padding-right: 50px;
+        padding-bottom: 0px;
+    }
+    .bookInfoDesc {
+        text-align: center;
+    }
+    .myListButtons {
+        display: flex;
+        justify-content:center   ;
+    }
+}
+@media only screen and (max-width:670px) {
+    .myListButtons {
+        flex-direction: column;
+    }
+    .btnInfo {
+        margin-bottom: 20px;
+        width: fit-content;
+        align-self: center;
+    }
+    .modifyBtn {
+        margin-top: 0px;
+    }
+    .bookInfoImg {
+        width: 250px;
+    }
+}

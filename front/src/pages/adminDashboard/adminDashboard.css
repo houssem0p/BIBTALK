@@ -1,0 +1,13 @@
+.adminDashboard .bookContainer .categorie .books{
+    flex-wrap: wrap;
+    overflow-y: unset;
+    overflow-x: unset;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.titleAdmin{
+    margin: 140px 0 5% 10%;
+    font-weight: bolder;
+}

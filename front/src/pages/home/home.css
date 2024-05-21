@@ -1,0 +1,45 @@
+.home {
+    background-color: #f1f1f1;
+}
+.cover{
+    margin: 0 10vw;
+    background-image: url("c:\Users\laptop caba\Downloads\مشروع جديد.png");
+    height: 800px;
+    width: 1200px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cover h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+}
+.cover h4{
+    font-size: 40px;
+    color: #262626;
+    background-color: #fff;
+    font-weight: 700;
+}
+.cover a{
+    text-decoration: none;
+    color: #000;
+    background-color: #3498DB;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+.cover a:hover{
+    text-decoration: none;
+    }
+@media only screen and (max-width:440px) {
+    .cover h1{
+        font-size: 35px;
+    }
+    .cover h4{
+        font-size: 25px;
+    }
+}

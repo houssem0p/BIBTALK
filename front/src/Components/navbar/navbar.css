@@ -1,0 +1,239 @@
+.navbar {
+    height: 70px;
+    background-color: #262626;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed ;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+}
+.logo {
+    font-size: 25px;
+    color:#3498DB ;
+    padding-left: 2%;
+    flex: 10%;
+}
+.logo h3 {
+    font-weight: 900;
+    cursor: pointer;
+}
+.form {
+    display: flex;
+    gap: 0.5%;
+    height: 80%;
+    position: relative;
+    justify-content: center;
+    flex: 30%;
+}
+.searchBook {   
+    width: 100%;
+    min-width: max-content;
+    height: 95%;
+    font-size: 1.15rem;
+    background-color: transparent;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #ffffff;
+    cursor: text;
+    padding: 0 10% 0 5%;
+  }
+.searchBook:focus {
+    outline: none;
+}
+.searchIcon{
+    color: white;
+    position: absolute;
+    height: 80%;
+    top: 20%;
+    right: 2%;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    justify-content: space-around;
+    flex: 30%;
+}
+.list .itemList {
+    cursor: pointer;
+    position: relative;
+}
+.list .itemList a{
+    text-decoration: none;
+    color: #fff;
+}
+.list .itemList a:hover{
+    text-decoration: none;
+    color: #3498DB;
+}
+.list .itemList:last-child:hover {
+    cursor: pointer;
+    color: #fff;
+}
+.list .itemList:last-child ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    z-index: 88;
+    left: 0; /* Center the list horizontally */
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    max-height: 200px; 
+    min-width: 100px;
+    background-color: #fff;
+    overflow-y: auto;
+    overflow-x: hidden; 
+    scrollbar-width: thin;
+    scrollbar-color: #3498db #ecf0f1;
+    right: 0;
+    left: auto;
+    box-sizing: border-box;
+    margin-right: -10%;
+}
+.list .itemList:last-child ul li:last-child {
+    border-bottom: 1px solid white;
+}
+.list .itemList:last-child ul::-webkit-scrollbar {
+    width: 4px; /* Adjust the width of the scrollbar for Webkit browsers */
+}
+  
+.list .itemList:last-child ul::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 6px; 
+}
+.list .itemList:last-child ul::-webkit-scrollbar-track {
+    background-color: #ecf0f1; 
+}
+.list .itemList:last-child ul li {
+    background-color: #262626;
+    padding: 10px 10px;
+    width: 100px;
+    border: 1px solid white;
+    border-bottom: none;
+    align-self: center;
+    box-sizing: border-box;
+}
+  
+.list .itemList:last-child:hover ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#hidden {
+    display: flex;
+}
+#hiddenSearch {
+    display: flex;
+}
+.list li:hover {
+    color: #3498DB;
+}
+.profile {
+    height: 80%;
+    flex: 10%;
+    display: flex;
+    justify-content: center;
+}
+.profile img {
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profileList {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileList li {
+    cursor: pointer;
+    height: auto;
+    padding: 10px 0;
+    width: 200px;
+    text-align: center;
+    background-color: #262626;
+    z-index: 1;
+    border-bottom: 1px solid white;
+}
+.profileList li a {
+    color: white;
+}
+.profileList li form button {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+#hiddens {
+    display: none;
+}
+.showLinks {
+    pointer-events: none;
+}
+@media only screen and (max-width:900px) {
+    .list .itemList:last-child ul {
+        margin-right: 20%;
+
+    }
+    .showLinks {
+        color: #3498DB;
+        pointer-events: initial;
+    }
+    .list{
+        display: none
+    }
+    .profile {
+        flex: 5%;
+        justify-content: end;
+        padding-right: 10%;
+    }
+    #hidden {
+        position: absolute;
+        left: 0;
+        top : 70px;
+        height: auto;
+        width: 50%;
+        background-color: #262626;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+        z-index: 1;
+    }
+    #hidden > li {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    #hiddenSearch {
+        position: absolute;
+        left: 0;
+        top : 70px;
+        height: 50px;
+        width: 100%;
+        background-color: #262626;
+        border-top: 1px solid white;
+    }
+    #hiddenSearch .searchBook {
+        border: none;
+    }
+
+}

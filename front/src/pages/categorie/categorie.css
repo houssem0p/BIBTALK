@@ -1,0 +1,49 @@
+
+.noCategoryFound {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topCategoryPage{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    gap: 2%;
+}
+.categoryInfo{
+    padding: 30px;
+    flex: 1.5;
+}
+.chat{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.categoryName{
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.livechatTitle{
+    font-weight: 600;
+    padding: 10px 10%;
+    align-self: flex-start;
+}
+.booksTitle{
+    font-weight: 600;
+    padding: 30px 20px;
+    font-size:xx-large;
+}
+
+@media only screen and (max-width:900px) {
+    .topCategoryPage {
+        flex-direction: column;
+    }
+    .categoryInfo {
+        margin-top: 50px;
+    }
+    .chat{
+        width: 100%;
+    }
+}

@@ -1,0 +1,98 @@
+.AddBook {
+    display: flex;
+    flex-direction: column;
+}
+.pageTitle {
+    margin: 140px 0 0 10%;
+    font-weight: bolder;
+}
+.updateBookContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.addBookForm {
+    margin:50px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 50%;
+    justify-content: space-between;
+    align-self: center;
+}
+.addBookForm label{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    font-weight: bold;
+    font-size:x-large;
+    justify-content: space-between;
+}
+.submitBtn {
+    font-style: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #3498DB;
+    color: white;
+    width: fit-content;
+    align-self: center;
+}
+.bookInput {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #909090;
+    font-size: 15px;
+    color: black;
+    width: 40%;
+}
+
+.fileInput {
+    cursor: pointer;
+}
+
+.fileImgContainer {
+    padding: 10px;
+    position: relative;
+}
+
+.fileImg {
+    width: 100%;
+    object-fit: cover;
+}
+.MuiSvgIcon-root {
+    font-size: 2.5rem;
+}
+.fileImgCancel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2.5rem;
+}
+.approvalButtons {
+    align-self: center;
+    display: flex;
+    gap:5%;
+    padding-bottom: 30px;
+}
+.approvalButtons button{
+    width: 150px;
+}
+.approveBtn {
+    background-color: rgb(30, 133, 17);
+}
+.rejectBtn {
+    background-color: rgb(136, 19, 19);
+}
+@media only screen and (max-width:1300px) {
+    .addBookForm {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:1100px) {
+    .addBookForm {
+        width: 90%;
+    }
+}

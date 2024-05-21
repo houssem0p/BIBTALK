@@ -1,0 +1,110 @@
+[
+    {
+      "name": "Arts & Music",
+      "description": "Discover the world of visual arts, music, and creative expression."
+    },
+    {
+      "name": "Biography",
+      "description": "Explore the life stories of notable individuals from various fields."
+    },
+    {
+      "name": "Business",
+      "description": "Gain insights into the world of commerce, entrepreneurship, and finance."
+    },
+    {
+      "name": "Comics",
+      "description": "Immerse yourself in the visual storytelling of comic books and graphic novels."
+    },
+    {
+      "name": "Computer & Tech",
+      "description": "Stay updated on the latest developments in technology and computing."
+    },
+    {
+      "name": "Cooking",
+      "description": "Delight your taste buds with culinary adventures and cooking techniques."
+    },
+    {
+      "name": "Crime",
+      "description": "Dive into the thrilling world of crime, mysteries, and detective stories."
+    },
+    {
+      "name": "Drama",
+      "description": "Experience the intensity and emotion of dramatic narratives."
+    },
+    {
+      "name": "Education",
+      "description": "Expand your knowledge with educational resources and insightful content."
+    },
+    {
+      "name": "Entertainment",
+      "description": "Entertain yourself with books that bring joy, laughter, and amusement."
+    },
+    {
+      "name": "Fiction",
+      "description": "Immerse yourself in imaginary worlds and captivating storytelling."
+    },
+    {
+      "name": "Health",
+      "description": "Take care of your well-being with health and wellness literature."
+    },
+    {
+      "name": "History",
+      "description": "Travel back in time and explore historical events and figures."
+    },
+    {
+      "name": "Horror",
+      "description": "Satisfy your craving for fear and suspense with horror novels."
+    },
+    {
+      "name": "Kids",
+      "description": "Introduce children to the magical world of literature and storytelling."
+    },
+    {
+      "name": "Literature",
+      "description": "Celebrate the art of literature with timeless classics and modern masterpieces."
+    },
+    {
+      "name": "Medical",
+      "description": "Explore the field of medicine, healthcare, and scientific discoveries."
+    },
+    {
+      "name": "Mystery",
+      "description": "Engage in solving mysteries and uncovering secrets with mystery novels."
+    },
+    {
+      "name": "Religion",
+      "description": "Delve into the spiritual and philosophical aspects of various religions."
+    },
+    {
+      "name": "Romance",
+      "description": "Experience love, passion, and romantic adventures with romance novels."
+    },
+    {
+      "name": "Science Fiction & Fantasy",
+      "description": "Embark on extraordinary journeys to fantastical realms and futuristic worlds."
+    },
+    {
+      "name": "Science & Math",
+      "description": "Deepen your understanding of scientific principles and mathematical concepts."
+    },
+    {
+      "name": "Sports",
+      "description": "Celebrate the spirit of athleticism and sportsmanship with sports literature."
+    },
+    {
+      "name": "Travel",
+      "description": "Satisfy your wanderlust with travel tales and exploration narratives."
+    },
+    {
+      "name": "Thriller",
+      "description": "Indulge in heart-pounding suspense and thrilling adventures with thriller novels."
+    },
+    {
+      "name": "Western",
+      "description": "Experience the Old West and cowboy adventures in Western literature."
+    },
+    {
+      "name": "Other",
+      "description": "Discover unique and diverse reads that defy traditional categorization."
+    }
+]
